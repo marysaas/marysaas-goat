@@ -1,0 +1,115 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8fbff;
+    margin:0;
+    color:#333;
+}
+
+/* header */
+
+header{
+    background: #cfe9ff;
+    text-align:center;
+    padding:40px;
+}
+
+.foto{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    border:5px solid white;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition: transform 0.4s;
+}
+
+.foto:hover{
+    transform: scale(1.1) rotate(3deg);
+}
+
+h1{
+    margin-top:15px;
+    font-size:32px;
+}
+
+.sub{
+    color:#444;
+}
+
+.goat{
+    display:inline-block;
+    margin-top:10px;
+    background:white;
+    padding:8px 15px;
+    border-radius:20px;
+    font-weight:bold;
+    color:#4aa3ff;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* layout */
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+}
+
+/* cards */
+
+.card{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+h2{
+    color:#5aaeff;
+}
+
+/* listas */
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:6px;
+}
+
+/* portfolio */
+
+.projetos{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.projeto{
+    background:#eaf5ff;
+    padding:15px;
+    border-radius:10px;
+    width:200px;
+    transition: all 0.3s;
+}
+
+.projeto:hover{
+    transform: scale(1.07);
+    background:#d8edff;
+}
+
+/* footer */
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#cfe9ff;
+    margin-top:30px;
+}
